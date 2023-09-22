@@ -1,5 +1,3 @@
-import React from 'react';
-
 function UserInterface() {
   return (
     <div className="bg-white min-h-screen">
@@ -42,7 +40,7 @@ function UserInterface() {
         </div>
      <div className="grid grid-cols-2 gap-4">
         {/* Current */}
-        <div className="bg-white rounded-lg p-4 text-right">
+        <div className="bg-white rounded-lg p-4 text-left">
             <h2 className="text-3xl font-bold"> Current</h2>
             <p className="text-2xl font-bold">2°C</p>
             <div className="mt-4">
@@ -52,7 +50,7 @@ function UserInterface() {
           </div>
 
         {/* Voltage */}
-        <div className="bg-white rounded-lg p-4 text-right">
+        <div className="bg-white rounded-lg p-4 text-left">
             <h2 className="text-3xl font-bold"> Voltage</h2>
             <p className="text-2xl font-bold">2°C</p>
             <div className="mt-4">
@@ -62,7 +60,7 @@ function UserInterface() {
         </div>
 
         {/* Internal Temperature */}
-        <div className="bg-white rounded-lg p-4 text-right">
+        <div className="bg-white rounded-lg p-4 text-left">
             <h2 className="text-3xl font-bold">Internal Temperature</h2>
             <p className="text-2xl font-bold">25°C</p>
             <div className="mt-4">
@@ -72,7 +70,7 @@ function UserInterface() {
           </div>
 
         {/* Ambient Temperature */}
-        <div className="bg-white rounded-lg p-4 text-right">
+        <div className="bg-white rounded-lg p-4 text-left">
             <h2 className="text-3xl font-bold"> Ambient Temperature</h2>
             <p className="text-2xl font-bold">2°C</p>
             <div className="mt-4">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function OperatorSignUp() {
@@ -6,15 +6,9 @@ function OperatorSignUp() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform form submission logic here
-    console.log('Form submitted:', name, email, password);
-  };
-
   return (
     <>
-      <form className="bg-slate-100 w-full max-w-sm mx-auto rounded-lg shadow-md p-6">
+      <form className="bg-slate-100 w-full max-w-sm mx-auto mt-16 rounded-lg shadow-md p-6">
         <label htmlFor="name" className="font-bold mb-2">
           Name:
         </label>

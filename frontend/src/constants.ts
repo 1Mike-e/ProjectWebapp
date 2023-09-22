@@ -1,0 +1,1 @@
+export const backendUrl = "https://group3-backend.onrender.com";
